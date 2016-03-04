@@ -1,0 +1,18 @@
+.sidebar {
+	width: 30%;
+	float: left;
+	margin: 0;
+	padding: 70% 10% 0 10%;
+	li {
+		list-style: none;
+		padding-bottom: 10px;
+		button {
+			background-color: rgba(69,57,42, 0.6);
+			padding: 20px 60px;
+			border: 5px ridge #8B7355;
+			font-size: 20px;
+			color: #FFD39C;
+			text-transform: uppercase;
+		}
+	}
+}

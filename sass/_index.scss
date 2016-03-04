@@ -1,0 +1,21 @@
+.main {
+	.wrapper {
+		display: flex;
+		.sidebarLeft {
+			flex: 1 0 10%;
+			.sidebarLeftWrapper {
+
+			}
+		}
+		.content {
+			flex: 1 0 70%;
+			padding: 5%;
+		}
+		.sidebarRight {
+			flex: 1 0 10%;
+			.sidebarRightWrapper {
+
+			}
+		}
+	}
+}

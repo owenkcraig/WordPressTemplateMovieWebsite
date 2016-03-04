@@ -1,0 +1,32 @@
+.home {
+	header {
+		visibility: hidden;
+	}
+	.wrapper {
+		display: flex;
+		.sidebarLeft {
+			flex: 1 0 10%;
+			.sidebarLeftWrapper {
+
+			}
+		}
+		.middleScreenHome {
+			flex: 1 0 70%;
+			.middleScreenHomeWrapper {
+				text-align: center;
+				.frontHeading {
+
+				}
+				.frontTagline {
+
+				}
+			}
+		}
+		.sidebarRight {
+			flex: 1 0 10%;
+			.sidebarRightWrapper {
+
+			}
+		}
+	}
+}
