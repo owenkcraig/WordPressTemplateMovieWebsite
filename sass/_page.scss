@@ -1,26 +1,51 @@
 .pageWrapper {
 	display: flex;
-	flex-wrap: no-wrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
+
+	.sidebarRight {
+		padding: 25px;
+		flex: 1 0 100%;
+		.sidebarRightWrapper {
+			.menu {
+				ul {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-around;
+					background-color: rgba(25,25,27, 0.8);
+					border: 2px solid #b13332;
+					li {
+
+					}
+				}
+			}
+		}
+	}
+
 	.content {
-		flex: 1 0 50%;
+		flex: 1 0 70%;
 		background-color: rgba(25,25,27, 0.6);
 		padding: 30px;	
+		margin: 30px;
 	}
 
 	.sidebarLeft {
 		padding: 25px;
-		flex: 1 0 20%;
+		flex: 1 0 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		.sidebar {
+			display: flex;
+			justify-content: space-around;
+			li {
+				flex: 1 0 50%;
+				max-width: 400px;
+				input {
+					height: 160px;
+				}
+			}
+		}
 	}
 
-	.sidebarRight {
-		padding: 25px;
-		flex: 1 0 10%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
 }
