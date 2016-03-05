@@ -1,8 +1,13 @@
+
+
 a {
-	color: #BA209B;
+	color: #b13332;
 	text-decoration: none;
-	&:hover {
-		color: #D424B1;
+	font-family: 'Lora', serif;
+	font-size: 23px;
+	font-weight: 700;
+	&:hover, &:focus {
+		color: #FDFDFD;
 	}
 }
 
@@ -10,6 +15,18 @@ a {
 
 p {
 	line-height: 1.5;
+	font-family: 'Lora', serif;
+}
+
+/* headings */
+
+h1, h2, h3 {
+	font-family: 'Lora', serif;
+}
+
+h1 {
+	color: #b13332;
+	font-size: 70px;
 }
 
 /*blockquotes*/

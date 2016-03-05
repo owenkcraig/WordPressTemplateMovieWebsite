@@ -1,6 +1,6 @@
 <?php get_header();  ?>
 
-<div class="wrapper">
+<div class="wrapper homeWrapper">
 	<div class="sidebarLeft">
 		<div class="sidebarLeftWrapper">
 			<div class="sidebar">
@@ -13,7 +13,7 @@
 		<div class="middleScreenHomeWrapper">
 			<div class="frontHeading">
 				<h1>
-					<?php the_title(); ?>
+					<?php wp_title(); ?>
 				</h1>
 			</div>
 			<div class="frontTagline">

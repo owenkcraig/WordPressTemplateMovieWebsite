@@ -1,13 +1,13 @@
 <?php get_header();  ?>
 
 <div class="main">
-  <div class="wrapper">
+  <div class="wrapper pageWrapper">
 
     <div class="sidebarLeft">
       <div class="sidebarLeftWrapper">
-        <ul class="sidebar">
+        <div class="sidebar">
           <?php  dynamic_sidebar( 'primary-widget-area' ); ?>
-        </ul>
+        </div>
       </div>
     </div>
     <div class="content">
@@ -29,6 +29,7 @@
     </div>
 
   </div> <!-- /.wrapper -->
+
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>

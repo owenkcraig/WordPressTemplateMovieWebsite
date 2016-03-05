@@ -3,15 +3,15 @@
 
 <div class="main">
 
-  <div class="wrapper">
+  <div class="wrapper indexWrapper">
 
-	<div class="sidebarLeft">
-	  <div class="sidebarLeftWrapper">
-	    <ul class="sidebar">
-	      <?php  dynamic_sidebar( 'primary-widget-area' ); ?>
-	    </ul>
-	  </div>
-	</div>
+  	<div class="sidebarLeft">
+  	  <div class="sidebarLeftWrapper">
+  	    <ul class="sidebar">
+  	      <?php  dynamic_sidebar( 'primary-widget-area' ); ?>
+  	    </ul>
+  	  </div>
+  	</div>
 
     <div class="content">
     		<?php get_template_part( 'loop', 'index' );	?>

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="main">
-  <div class="container">
+  <div class="singleWrapper">
     <div class="content">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -36,10 +36,15 @@
       <?php endwhile; // end of the loop. ?>
 
     </div> <!-- /.content -->
+    
+    <div class="bottomNav">
+      <?php wp_nav_menu( array(
+            'container' => false,
+            'theme_location' => 'primary'
+          )); ?>
+    </div>
 
-    <?php get_sidebar(); ?>
-
-  </div> <!-- /.container -->
+  </div> <!-- /.singleWrapper -->
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>

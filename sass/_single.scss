@@ -1,0 +1,35 @@
+.singleWrapper {
+	margin: 30px;
+	.content {
+		background-color: rgba(25,25,27, 0.8);
+		padding: 30px;
+		h1 {
+			font-size: 30px;
+		}
+		.entry-meta {
+			a {
+				font-size: 20px;
+			}
+		}
+		.entry-utility {
+			a {
+				font-size: 20px;
+			}
+		}
+	}
+	.bottomNav {
+		.menu {
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				background-color: rgba(25,25,27, 0.8);
+				border: 2px solid #b13332;
+				list-style-type: none;
+				li {
+					
+				}
+			}
+		}
+	}
+}

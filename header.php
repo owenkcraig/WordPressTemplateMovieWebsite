@@ -20,22 +20,34 @@
   
 <body style="background-image: url(<?php echo hackeryou_get_thumbnail_url($postThing) ?> );" <?php body_class(); ?>>
 
+      <header>
+        <div class="headerWrapper">
+          <h2>
+            Blog
+          </h2>
+
+
+        </div> <!-- /.container -->
+      </header><!--/.header-->
+
 <?php
   } 
 else {
   ?>
 <body style="background-image: url(<?php echo hackeryou_get_thumbnail_url($post) ?> );" <?php body_class(); ?>>
 
+  <header>
+    <div class="headerWrapper">
+      <h2>
+        <?php the_title(); ?>
+      </h2>
+
+
+    </div> <!-- /.container -->
+  </header><!--/.header-->
+
 <?php } ?>
 
 
-<header>
-  <div class="headerWrapper">
-    <h2>
-      <?php the_title(); ?>
-    </h2>
 
-
-  </div> <!-- /.container -->
-</header><!--/.header-->
 

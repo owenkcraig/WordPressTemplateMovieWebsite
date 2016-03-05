@@ -1,21 +1,43 @@
-.main {
-	.wrapper {
+.indexWrapper {
+	display: flex;
+	.content {
+		flex: 1 0 50%;
+		background-color: rgba(25,25,27, 0.8);
+		padding: 15px;
+		article {
+			h2 {
+				text-align: center;
+			}
+			section {
+				.more-link {
+					font-size: 20px;
+				}
+			}
+			footer {
+				text-align: left;
+				display: flex;
+				flex-direction: column;
+				p {
+					margin: 3px;
+					a {
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	.sidebarLeft {
+		padding: 25px;
+		flex: 1 0 20%;
 		display: flex;
-		.sidebarLeft {
-			flex: 1 0 10%;
-			.sidebarLeftWrapper {
+		flex-direction: column;
+	}
 
-			}
-		}
-		.content {
-			flex: 1 0 70%;
-			padding: 5%;
-		}
-		.sidebarRight {
-			flex: 1 0 10%;
-			.sidebarRightWrapper {
-
-			}
-		}
+	.sidebarRight {
+		padding: 25px;
+		flex: 1 0 10%;
+		display: flex;
+		flex-direction: column;
 	}
 }
