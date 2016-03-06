@@ -49,3 +49,38 @@
 	}
 
 }
+
+// **************************
+//  Responsive
+// **************************
+
+// Landscape phone to portrait table-layout
+@media (max-width: 1000px) {
+
+	body {
+
+	}
+}
+
+// Landscape phones and down
+@media (max-width: 767px) {
+	body {
+		.sidebarRight {
+			.sidebarRightWrapper {
+				.menu {
+					ul {
+						flex-wrap: wrap;
+					}
+				}
+			}
+		}
+		
+	}
+}
+
+//Portrait phones and down
+@media (max-width: 480px) {
+	body {
+		
+	}
+}	

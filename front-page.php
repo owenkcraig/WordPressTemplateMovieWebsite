@@ -1,11 +1,13 @@
 <?php get_header();  ?>
 
 <div class="wrapper homeWrapper">
-	<div class="sidebarLeft">
-		<div class="sidebarLeftWrapper">
-			<div class="sidebar">
-				<?php  dynamic_sidebar( 'primary-widget-area' ); ?>
-			</div>
+	
+	<div class="sidebarRight">
+		<div class="sidebarRightWrapper">
+			<?php wp_nav_menu( array(
+			      'container' => false,
+			      'theme_location' => 'primary'
+			    )); ?>
 		</div>
 	</div>
 
@@ -24,14 +26,14 @@
 		</div>
 	</div>
 
-	<div class="sidebarRight">
-		<div class="sidebarRightWrapper">
-			<?php wp_nav_menu( array(
-			      'container' => false,
-			      'theme_location' => 'primary'
-			    )); ?>
+	<div class="sidebarLeft">
+		<div class="sidebarLeftWrapper">
+			<div class="sidebar">
+				<?php  dynamic_sidebar( 'primary-widget-area' ); ?>
+			</div>
 		</div>
 	</div>
+
 </div>
 
 
